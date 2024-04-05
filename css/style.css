@@ -30,6 +30,7 @@ ul {
   display: block;
   text-align: center;
   padding: 20px;
+  background: #EBEBEB;
 }
 
 .news__title{
@@ -57,4 +58,38 @@ ul {
 .news__list{
   display: flex;
   justify-content: space-between;
+  text-align: start;
+}
+
+.news__card{
+  background: #fff;
+  max-width: 350px;
+  padding: 15px;
+}
+
+.news__text{
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.news__desc{
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
+  color: #9b9b9b;
+  margin-bottom: 10px;
+}
+
+.news__link{
+  display: block;
+  text-align: center;
+  padding: 11px 133px;
+  width: 100%;
+  background: #dfc900;
+
+}
+
+.news__img{
+  max-width: 320px;
+  object-fit: cover;
 }
